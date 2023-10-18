@@ -48,12 +48,6 @@
 		<dependency>
 			<groupId>com.google.auth</groupId>
 			<artifactId>google-auth-library-oauth2-http</artifactId>
-			<version>1.16.0</version> <!-- Choose the version that is compatible with your other Google Cloud libraries -->
-		</dependency>
-
-		<dependency>
-			<groupId>com.google.auth</groupId>
-			<artifactId>google-auth-library-oauth2-http</artifactId>
 			<version>1.16.0</version> <!-- Choose the appropriate version -->
 		</dependency>
 

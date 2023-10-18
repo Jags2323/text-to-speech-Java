@@ -1,0 +1,4 @@
+com\example\texttospeech\config\CorsConfig$1.class
+com\example\texttospeech\config\CorsConfig.class
+com\example\texttospeech\controller\TextToSpeechController.class
+com\example\texttospeech\TextToSpeechApplication.class

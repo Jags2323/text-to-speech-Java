@@ -85,7 +85,7 @@ public class TextToSpeechController {
     @GetMapping(value = "", produces = "audio/mpeg")
     public byte[] synthesizeTextToSpeech(@RequestParam String text) {
         try {
-            // Set up authentication using your JSON key file
+            // Setting up authentication using  JSON key file
             GoogleCredentials credentials = ServiceAccountCredentials.fromStream(
                     new FileInputStream("C:\\Users\\jagad\\OneDrive\\Desktop\\text-to-speech\\text-to-speech\\text-to-speech-key.json"));
 
@@ -111,7 +111,6 @@ public class TextToSpeechController {
             return audioContents.toByteArray();
         } catch (IOException e) {
             e.printStackTrace();
-            // You may want to handle the error in a more robust way
             throw new RuntimeException("Error: " + e.getMessage());
         }
     }
