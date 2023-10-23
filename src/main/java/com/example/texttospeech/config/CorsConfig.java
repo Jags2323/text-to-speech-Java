@@ -12,7 +12,7 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/texttospeech").allowedOrigins("http://localhost:3000");
+                registry.addMapping("/texttospeech").allowedOrigins("https://text-to-speech-react-669i149o2-jagadeesh230795-gmailcom.vercel.app");
             }
         };
     }
