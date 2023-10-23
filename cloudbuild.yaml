@@ -16,7 +16,7 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - 'demo'  # Replace with your desired service name
+      - 'text-to-speech-java'  # Replace with your desired service name
       - '--image=gcr.io/awesome-pilot-400117/text-to-speech:latest'
       - '--region=us-east1'  # Replace with your desired region
     env:
