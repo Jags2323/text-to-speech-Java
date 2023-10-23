@@ -179,6 +179,8 @@ public class TextToSpeechController {
 
             BigtableDataSettings bigtableSettings = BigtableDataSettings.newBuilder()
                     .setCredentialsProvider(FixedCredentialsProvider.create(bigtableCredentials))
+                    .setProjectId("awesome-pilot-400117")
+                    .setInstanceId("text-to-speech")
                     .build();
             bigtableDataClient = BigtableDataClient.create(bigtableSettings);
 
